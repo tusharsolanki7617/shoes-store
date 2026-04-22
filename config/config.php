@@ -32,7 +32,7 @@ if ($is_localhost) {
     define('DB_NAME', 'shoes_store');
     define('DB_USER', 'root');
     define('DB_PASS', '');
-    define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/website/shoes-store/');
+    define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/shoes-store/');
     define('ENVIRONMENT', 'development');
     
     // Display errors in development
