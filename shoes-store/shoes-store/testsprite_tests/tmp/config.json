@@ -1,0 +1,17 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:80/AI/shoes-store/",
+  "executionArgs": {
+    "projectName": "shoes-store",
+    "projectPath": "/Applications/XAMPP/xamppfiles/htdocs/AI/shoes-store",
+    "testIds": [],
+    "additionalInstruction": "",
+    "envs": {
+      "API_KEY": "sk-user-7dXU1H0jVvN0H89XqnVxLIl1duLrdoG1mAwiYjUhkBC9UK8vGJ4puRKbrnQA-HidYLeOWnPU1zADSxyljq8k2Z4w8pQF-wBdhH_yAP2Omh-kNKSbwADK8TQ8vRMQZ0ycjpE"
+    }
+  },
+  "serverPort": 53234,
+  "proxy": "http://521e8583-56f0-45eb-98b5-0817fa92da40:eVPlYX8TnaM3aIOydPsQGTY6yq1Xy7G3@tun.testsprite.com:8080"
+}

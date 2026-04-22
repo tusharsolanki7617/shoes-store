@@ -1,0 +1,15 @@
+# Allow direct access to image files in uploads folder
+Options -Indexes
+
+# Allow image files to be served
+<FilesMatch "\.(jpg|jpeg|png|gif|webp|svg|ico)$">
+    Order Allow,Deny
+    Allow from all
+    Satisfy Any
+</FilesMatch>
+
+# Deny access to PHP files in uploads (security)
+<FilesMatch "\.php$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>

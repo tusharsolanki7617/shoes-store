@@ -1,0 +1,131 @@
+{
+    "projectName": "Kicks & Comfort Shoes Store",
+    "projectType": "E-commerce Website",
+    "techStack": {
+        "backend": {
+            "language": "PHP",
+            "version": "7.4+",
+            "framework": "Vanilla PHP",
+            "database": "MySQL 5.7+",
+            "features": [
+                "PDO Database Connection",
+                "Session Management",
+                "Email Service (SMTP)",
+                "CSRF Protection",
+                "XSS Protection",
+                "Rate Limiting"
+            ]
+        },
+        "frontend": {
+            "html": "HTML5",
+            "css": "CSS3 with Bootstrap 5",
+            "javascript": "jQuery 3.6+",
+            "icons": "Font Awesome 6",
+            "features": [
+                "Responsive Design",
+                "AJAX Operations",
+                "Form Validation",
+                "Animations and Glassmorphism",
+                "Premium Gradients"
+            ]
+        }
+    },
+    "architecture": {
+        "type": "MVC-like with modular structure",
+        "directories": {
+            "config": "Configuration files (database, environment)",
+            "includes": "Core PHP modules (auth, cart, db, email, security, functions)",
+            "user": "User authentication pages (login, register, profile, orders)",
+            "admin": "Admin panel pages (products, orders, users)",
+            "ajax": "AJAX handlers (cart operations, coupon)",
+            "assets": "Frontend assets (CSS, JS, images)",
+            "sql": "Database schema and seed data",
+            "uploads": "User-uploaded files (products, profiles)"
+        }
+    },
+    "features": {
+        "authentication": {
+            "registration": "Email-based with activation token",
+            "login": "With rate limiting and session management",
+            "passwordReset": "Token-based reset flow",
+            "accountActivation": "Email verification required"
+        },
+        "userFeatures": {
+            "profile": "View and edit profile with photo upload",
+            "orders": "Order history and tracking",
+            "changePassword": "Secure password change"
+        },
+        "shopping": {
+            "productListing": "With filters, sorting, and pagination",
+            "productDetail": "With reviews and image gallery",
+            "shoppingCart": "AJAX-based cart operations",
+            "checkout": "Complete checkout process",
+            "coupons": "Support for percentage and fixed discounts",
+            "search": "Product search functionality"
+        },
+        "admin": {
+            "dashboard": "Overview of orders and stats",
+            "productManagement": "Add, edit, delete products",
+            "orderManagement": "View and update orders",
+            "userManagement": "Manage customers"
+        },
+        "other": {
+            "contact": "Contact form with email notification",
+            "about": "About us page",
+            "services": "Services/FAQ page",
+            "reviews": "Product reviews system"
+        }
+    },
+    "database": {
+        "tables": [
+            "users",
+            "categories",
+            "products",
+            "orders",
+            "order_items",
+            "reviews",
+            "coupons",
+            "contact_messages"
+        ]
+    },
+    "entryPoints": {
+        "homepage": "/AI/shoes-store/index.php",
+        "products": "/AI/shoes-store/products.php",
+        "productDetail": "/AI/shoes-store/product-detail.php",
+        "cart": "/AI/shoes-store/cart.php",
+        "checkout": "/AI/shoes-store/checkout.php",
+        "userLogin": "/AI/shoes-store/user/login.php",
+        "userRegister": "/AI/shoes-store/user/register.php",
+        "userProfile": "/AI/shoes-store/user/profile.php",
+        "userOrders": "/AI/shoes-store/user/orders.php",
+        "adminDashboard": "/AI/shoes-store/admin/index.php",
+        "adminProducts": "/AI/shoes-store/admin/products.php",
+        "adminOrders": "/AI/shoes-store/admin/orders.php",
+        "contact": "/AI/shoes-store/contact.php",
+        "about": "/AI/shoes-store/about.php",
+        "services": "/AI/shoes-store/services.php",
+        "search": "/AI/shoes-store/search.php"
+    },
+    "testCredentials": {
+        "admin": {
+            "email": "admin@shoesstore.com",
+            "password": "Admin@123"
+        },
+        "testCoupons": [
+            "WELCOME10",
+            "FLAT500",
+            "SUMMER20"
+        ]
+    },
+    "configuration": {
+        "baseUrl": "http://localhost/AI/shoes-store/",
+        "environmentDetection": "Automatic (localhost vs production)",
+        "sessionLifetime": "3600 seconds (1 hour)",
+        "currencySymbol": "₹",
+        "currencyCode": "INR"
+    },
+    "knownIssues": [
+        "Some admin panel features may be incomplete",
+        "Email functionality requires SMTP configuration in production"
+    ]
+}
