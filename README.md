@@ -3,6 +3,10 @@
 A full-stack PHP + MySQL web application for an online shoes store with product management, user authentication, cart, wishlist, coupons, Razorpay payment, contact form, search, orders, and admin panel.
 
 ---
+🌐 Live Demo
+👉 Click here to visit the live site → https://kicks-comfort.wuaze.com/shoes-store/index.php
+---
+
 
 ## 🚀 Features
 
