@@ -255,6 +255,6 @@ shoes-store/
 
 This project is created for **educational purposes**. Feel free to use, modify, and learn from it.
 
---
+---
 
 <p align="center">Tushar Solanki — Kicks & Comfort - Shoes Store Website</p>
