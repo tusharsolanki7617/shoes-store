@@ -3,12 +3,12 @@
 A full-stack PHP + MySQL web application for an online shoes store with product management, user authentication, cart, wishlist, coupons, Razorpay payment, contact form, search, orders, and admin panel.
 
 ---
+
 ### 🌐 Live Demo
 
-> **[👉 Click here to visit the live site → https://kicks-comfort.wuaze.com/](**https://kicks-comfort.wuaze.com/**)**
+> **[👉 Click here to visit the live site → https://kicks-comfort.wuaze.com/](https://kicks-comfort.wuaze.com/)**
 
 ---
-
 
 ## 🚀 Features
 
@@ -251,6 +251,8 @@ shoes-store/
 
 ---
 
-## 📄 License
+## 📜 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is created for **educational purposes**. Feel free to use, modify, and learn from it.
+
+<p align="center">Tushar Solanki — Kicks & Comfort - Shoes Store Website</p>
